@@ -1,3 +1,4 @@
+import { supabase } from './supabaseClient';
 import React, { useState, useMemo, useEffect, useCallback, useRef } from 'react';
 import {
   Search, Upload, Filter, RefreshCw, BarChart2, LineChart as LineChartIcon,
